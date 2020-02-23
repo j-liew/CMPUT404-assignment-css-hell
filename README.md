@@ -12,6 +12,16 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+Part I
+modifications made to project gutenburg HTML files:
+- removed the inline body, header and paragraph tags
+- standardized them in the theme.css file
+    - changed background to a paper texture
+    - change font to 'Averia Serif Libre'
+    - changed to red/black/yellow color scheme
+- mostly left the custom inline classes untouched
+- other minor changes made where necessary (text alignment, image alingment)
+
 License/Copyright
 =================
 
