@@ -13,7 +13,7 @@ Read this comic http://theoatmeal.com/comics/design_hell
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
 Part I
-<br>modifications made to project gutenburg HTML files:
+modifications made to project gutenburg HTML files:<br>
 - removed the inline body, header and paragraph tags
 - standardized them in the theme.css file
     - changed background to a paper texture
@@ -21,7 +21,7 @@ Part I
     - changed to red/black/yellow color scheme
 - mostly left the custom inline classes untouched
 - other minor changes made where necessary (text alignment, image alingment)
-- background texture sourced from pixabay.com under the pixabay licence
+- background texture sourced from pixabay.com under the pixabay licence <br>
 https://pixabay.com/illustrations/paper-background-texture-template-2500380/
 
 License/Copyright
