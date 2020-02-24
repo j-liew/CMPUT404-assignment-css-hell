@@ -1,0 +1,168 @@
+body{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color:black;
+    margin: 0;
+    padding: 0;
+}
+
+.heading h2{
+    background: yellow;
+    margin-left: .5em;
+}
+
+header{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: rgb(0,90,255);
+    background: linear-gradient(180deg, rgba(0,90,255,1) 19%, rgba(42,0,227,1) 91%);
+    
+}
+
+
+#trim {
+    height: 3em;
+    width: 100%;
+    box-shadow: 0 0 10px black;
+}
+.heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 15em;
+}
+.heading h1{
+    background: linear-gradient(to right,red,  orange , yellow, green, blue , indigo, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    font-size: 5em;
+}
+.heading img{
+    padding-left: 0.5em;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    }
+
+
+nav ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+    height: 2.5em;
+    align-items: center;
+}
+
+nav ul li{
+    border-left: solid;
+    border-top: solid;
+    border-bottom: solid;
+    background: rgb(255,225,0);
+    background: linear-gradient(180deg, rgba(255,225,0,1) 0%, rgba(255,102,0,1) 79%);
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}
+
+nav ul li:last-child{
+    border-right: solid;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 1.25em;
+    color: black;
+}
+
+.section{
+    display: flex;
+}
+
+
+.section-content h2{
+    margin-bottom: 0.25em;
+}
+.section-content{
+}
+.section-content p{
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
+}
+
+.section-image{
+    margin: 1em;
+
+    max-width: 15em;
+    max-height: 15em;
+    width: auto;
+    height: auto
+}
+
+.sections{
+    margin: 1em;
+    width: 75%;
+}
+
+.content{
+    display: flex;  
+    background: white;  
+}
+
+
+.main{
+    width: 85%;
+    margin: auto;
+    box-shadow: -15px 0 15px -15px #000, 15px 0 15px -15px #000;
+}
+
+.bg{
+    background: rgb(45,45,45);
+}
+
+.side{
+    background: rgb(255,208, 0);
+    width: 25%;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+.side-section{
+    padding-bottom: 3em;
+}
+
+.side-section h3{
+    font-size: 1em;
+    margin:0;
+    padding:0;
+    color: rgb(0,90,130);
+    margin-bottom: .25em;
+}
+
+.side-section p{
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1em;
+    margin-right: 1em;
+    
+}
+
+.side-title{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#disclaimer{
+    font-size: 0.25em;
+}
